@@ -65,7 +65,7 @@ const Navbar = () => {
                 <li><a href="#project" onClick={closeMenu}>Projects</a></li>
                 <li><a href="#contact" onClick={closeMenu}>Contact me</a></li>
                 <li>
-                    <a href="" className='mt-2 inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-full hover:bg-gray-900 transition' onClick={closeMenu}>
+                    <a href="/Resume.pdf" className='mt-2 inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-full hover:bg-gray-900 transition' onClick={closeMenu}>
                         Resume <FaDownload />
                     </a>
                 </li>
