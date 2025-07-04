@@ -16,7 +16,7 @@ const Header = () => {
       <p className='max-w-2xl mx-auto'>
         I'm a Frontend Web Developer specialized in React.js, skilled in building and maintaining responsive, high-performance websites.
       </p>
-      <div className='flex flex-row sm:flow-col items-center gap-4 mt-4'>
+      <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
             Contact Me <MdArrowOutward />
         </a>
